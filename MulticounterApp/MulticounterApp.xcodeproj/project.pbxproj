@@ -14,6 +14,15 @@
 		E4930F0B28C255960068A34C /* MulticounterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4930F0A28C255960068A34C /* MulticounterAppTests.swift */; };
 		E4930F1528C255960068A34C /* MulticounterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4930F1428C255960068A34C /* MulticounterAppUITests.swift */; };
 		E4930F1728C255960068A34C /* MulticounterAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4930F1628C255960068A34C /* MulticounterAppUITestsLaunchTests.swift */; };
+		E4E7F9A828C2BD5300A3B269 /* CounterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7F9A728C2BD5300A3B269 /* CounterLabel.swift */; };
+		E4E7F9AA28C2BE2300A3B269 /* SquareCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7F9A928C2BE2300A3B269 /* SquareCounter.swift */; };
+		E4E7F9AC28C2BE8F00A3B269 /* SubstractionCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7F9AB28C2BE8F00A3B269 /* SubstractionCounter.swift */; };
+		E4E7F9AE28C2BF3400A3B269 /* AdditionCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7F9AD28C2BF3400A3B269 /* AdditionCounter.swift */; };
+		E4E7F9B028C2BF9500A3B269 /* MultiplicationCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7F9AF28C2BF9500A3B269 /* MultiplicationCounter.swift */; };
+		E4E7F9B228C2C11C00A3B269 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7F9B128C2C11C00A3B269 /* AddButton.swift */; };
+		E4E7F9B428C2C1E700A3B269 /* SubstractButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7F9B328C2C1E700A3B269 /* SubstractButton.swift */; };
+		E4E7F9B628C2C45500A3B269 /* MultiplyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7F9B528C2C45500A3B269 /* MultiplyButton.swift */; };
+		E4E7F9B828C2C55700A3B269 /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7F9B728C2C55700A3B269 /* SquareButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		E4930F1028C255960068A34C /* MulticounterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MulticounterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4930F1428C255960068A34C /* MulticounterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticounterAppUITests.swift; sourceTree = "<group>"; };
 		E4930F1628C255960068A34C /* MulticounterAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticounterAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4E7F9A728C2BD5300A3B269 /* CounterLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterLabel.swift; sourceTree = "<group>"; };
+		E4E7F9A928C2BE2300A3B269 /* SquareCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareCounter.swift; sourceTree = "<group>"; };
+		E4E7F9AB28C2BE8F00A3B269 /* SubstractionCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstractionCounter.swift; sourceTree = "<group>"; };
+		E4E7F9AD28C2BF3400A3B269 /* AdditionCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionCounter.swift; sourceTree = "<group>"; };
+		E4E7F9AF28C2BF9500A3B269 /* MultiplicationCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationCounter.swift; sourceTree = "<group>"; };
+		E4E7F9B128C2C11C00A3B269 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		E4E7F9B328C2C1E700A3B269 /* SubstractButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstractButton.swift; sourceTree = "<group>"; };
+		E4E7F9B528C2C45500A3B269 /* MultiplyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyButton.swift; sourceTree = "<group>"; };
+		E4E7F9B728C2C55700A3B269 /* SquareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +112,8 @@
 		E4930EF828C255950068A34C /* MulticounterApp */ = {
 			isa = PBXGroup;
 			children = (
+				E4E7F9A428C2BCA400A3B269 /* Views */,
+				E4E7F9A328C2BC9A00A3B269 /* Functionality */,
 				E4930EF928C255950068A34C /* MulticounterAppApp.swift */,
 				E4930EFB28C255950068A34C /* ContentView.swift */,
 				E4930EFD28C255960068A34C /* Assets.xcassets */,
@@ -125,6 +145,29 @@
 				E4930F1628C255960068A34C /* MulticounterAppUITestsLaunchTests.swift */,
 			);
 			path = MulticounterAppUITests;
+			sourceTree = "<group>";
+		};
+		E4E7F9A328C2BC9A00A3B269 /* Functionality */ = {
+			isa = PBXGroup;
+			children = (
+				E4E7F9A928C2BE2300A3B269 /* SquareCounter.swift */,
+				E4E7F9AB28C2BE8F00A3B269 /* SubstractionCounter.swift */,
+				E4E7F9AD28C2BF3400A3B269 /* AdditionCounter.swift */,
+				E4E7F9AF28C2BF9500A3B269 /* MultiplicationCounter.swift */,
+			);
+			path = Functionality;
+			sourceTree = "<group>";
+		};
+		E4E7F9A428C2BCA400A3B269 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4E7F9A728C2BD5300A3B269 /* CounterLabel.swift */,
+				E4E7F9B128C2C11C00A3B269 /* AddButton.swift */,
+				E4E7F9B328C2C1E700A3B269 /* SubstractButton.swift */,
+				E4E7F9B528C2C45500A3B269 /* MultiplyButton.swift */,
+				E4E7F9B728C2C55700A3B269 /* SquareButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +301,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4930EFC28C255950068A34C /* ContentView.swift in Sources */,
+				E4E7F9AC28C2BE8F00A3B269 /* SubstractionCounter.swift in Sources */,
 				E4930EFA28C255950068A34C /* MulticounterAppApp.swift in Sources */,
+				E4E7F9A828C2BD5300A3B269 /* CounterLabel.swift in Sources */,
+				E4E7F9B828C2C55700A3B269 /* SquareButton.swift in Sources */,
+				E4E7F9AE28C2BF3400A3B269 /* AdditionCounter.swift in Sources */,
+				E4E7F9B628C2C45500A3B269 /* MultiplyButton.swift in Sources */,
+				E4E7F9AA28C2BE2300A3B269 /* SquareCounter.swift in Sources */,
+				E4E7F9B428C2C1E700A3B269 /* SubstractButton.swift in Sources */,
+				E4E7F9B028C2BF9500A3B269 /* MultiplicationCounter.swift in Sources */,
+				E4E7F9B228C2C11C00A3B269 /* AddButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

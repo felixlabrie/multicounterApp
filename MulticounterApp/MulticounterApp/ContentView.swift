@@ -9,8 +9,35 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        
+        Text("Félix's MultiCounter App")
+            .fontWeight(.bold)
+            .foregroundColor(Color(.systemCyan))
             .padding()
+        
+        VStack {
+            HStack {
+                VStack {
+                    AddButton()
+                    CounterLabel(label: "ADD")
+                }
+                VStack {
+                    SubstractButton()
+                    CounterLabel(label: "SUBTRACT")
+                }
+            }
+            HStack {
+                VStack {
+                    MultiplyButton()
+                    CounterLabel(label: "MULTIPLY")
+                }
+                VStack {
+                    SquareButton()
+                    CounterLabel(label: "SQUARE")
+                }
+            }
+        }
+        
     }
 }
 
